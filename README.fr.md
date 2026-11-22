@@ -9,6 +9,21 @@ Applications de démonstration de **WinUI for Delphi**, un kit qui permet d'écr
 
 Ce dépôt ne contient que les exécutables (Windows 64 bits), pas de code source.
 
+## Dans l'IDE Delphi
+
+**Le designer de fiches.** Les contrôles WinUI 3 ont leurs pages dans la palette d'outils. On les pose sur une fiche, on règle leurs propriétés dans l'inspecteur d'objets, et la vue Structure suit, exactement comme en VCL.
+
+![Une fiche WinUI au designer de Delphi, avec l'inspecteur d'objets et la palette WinUI 3](captures/ide-designer.png)
+
+| | |
+|---|---|
+| ![Les pages d'une NavigationView au designer](captures/ide-designer-input.png) | ![Une page conçue comme un cadre](captures/ide-page.png) |
+| **Navigation au designer** : un clic sur un élément du volet ouvre sa page au designer, prête à être modifiée. | **Pages cadres** : chaque page est une unité avec son propre écran, créée par l'assistant *Page WinUI 3*. |
+
+**Le designer XAML.** Les pages XAML s'ouvrent dans l'IDE avec un aperçu natif en direct à côté du code. Un clic sur un élément de l'aperçu amène l'éditeur à sa ligne, et les vues Structure XAML et Propriétés XAML suivent la sélection. Une palette XAML insère les contrôles, et la complétion de code connaît les types WinUI.
+
+![Le designer XAML dans l'IDE Delphi : aperçu en direct, code XAML, structure, propriétés et palette](captures/ide-xaml.png)
+
 ## Prérequis
 
 - Windows 10 (version 1809 ou ultérieure) ou Windows 11, 64 bits.

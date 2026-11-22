@@ -16,6 +16,21 @@ This repository contains **ready-to-run demo applications** (Windows, 64-bit). D
 
 **In XAML.** Write windows and pages in XAML and drive them from Delphi code-behind and view models. `x:Name` connects fields, events are wired by name and `{Binding}` reads your Delphi objects. No code is generated.
 
+## In the Delphi IDE
+
+**The form designer.** WinUI 3 controls have their own pages in the Tool Palette. You drop them on a form, edit their properties in the Object Inspector and see the form take shape in the Structure view, exactly as with the VCL.
+
+![A WinUI form in the Delphi form designer, with the Object Inspector and the WinUI 3 palette](captures/ide-designer.png)
+
+| | |
+|---|---|
+| ![The pages of a NavigationView at design time](captures/ide-designer-input.png) | ![A page designed like a frame](captures/ide-page.png) |
+| **Navigation at design time**: click an item of the navigation pane and its page opens in the designer, ready to be edited. | **Pages as frames**: each page is a unit with its own design, created by the *WinUI 3 Page* wizard. |
+
+**The XAML designer.** XAML pages open in the IDE with a live, native preview next to the code. Click an element in the preview and the editor jumps to its line, while the XAML Structure and XAML Properties views follow the selection. A XAML palette inserts controls, and code completion knows the WinUI types.
+
+![The XAML designer in the Delphi IDE: live preview, XAML code, structure, properties and palette](captures/ide-xaml.png)
+
 ## Highlights
 
 - **Native WinUI 3 controls**: buttons, text boxes, combo boxes, date and time pickers, calendar, color picker, rating, lists, tree view, grid view, data grid, command bar, menus, flyouts, dialogs, info bars, teaching tips, navigation view, tabs, breadcrumb bar, flip view, media player, web view and more.
@@ -73,4 +88,4 @@ Nothing else needs to be installed: each executable is self-contained. Keep the 
 
 The executables are not signed, so Windows SmartScreen may ask for confirmation the first time (*More info* > *Run anyway*).
 
-Native WinUI texts (date and time pickers, toggle switches, the Settings item…) follow the language of Windows: the screenshots were taken on a French Windows.
+Native WinUI texts (date and time pickers, toggle switches, the Settings item…) follow the language of Windows: the screenshots were taken on a French Windows, with a French Delphi IDE.
