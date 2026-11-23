@@ -25,7 +25,7 @@ This repository contains **ready-to-run demo applications** (Windows, 64-bit). D
 | | |
 |---|---|
 | ![The pages of a NavigationView at design time](captures/ide-designer-input.png) | ![A page designed like a frame](captures/ide-page.png) |
-| **Navigation at design time**: click an item of the navigation pane and its page opens in the designer, ready to be edited. | **Pages as frames**: each page is a unit with its own design, created by the *WinUI 3 Page* wizard. |
+| **Navigation at design time**: click an item of the navigation pane and its page opens in the designer, ready to be edited. | **Pages as frames**: each page is a unit with its own design, created by the *WinUI 3 Page* wizard, with its navigation events in the Object Inspector. |
 
 **The XAML designer.** XAML pages open in the IDE with a live, native preview next to the code. Click an element in the preview and the editor jumps to its line, while the XAML Structure and XAML Properties views follow the selection. A XAML palette inserts controls, and code completion knows the WinUI types.
 

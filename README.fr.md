@@ -18,7 +18,7 @@ Ce dépôt ne contient que les exécutables (Windows 64 bits), pas de code sourc
 | | |
 |---|---|
 | ![Les pages d'une NavigationView au designer](captures/ide-designer-input.png) | ![Une page conçue comme un cadre](captures/ide-page.png) |
-| **Navigation au designer** : un clic sur un élément du volet ouvre sa page au designer, prête à être modifiée. | **Pages cadres** : chaque page est une unité avec son propre écran, créée par l'assistant *Page WinUI 3*. |
+| **Navigation au designer** : un clic sur un élément du volet ouvre sa page au designer, prête à être modifiée. | **Pages cadres** : chaque page est une unité avec son propre écran, créée par l'assistant *Page WinUI 3*, avec ses événements de navigation dans l'inspecteur d'objets. |
 
 **Le designer XAML.** Les pages XAML s'ouvrent dans l'IDE avec un aperçu natif en direct à côté du code. Un clic sur un élément de l'aperçu amène l'éditeur à sa ligne, et les vues Structure XAML et Propriétés XAML suivent la sélection. Une palette XAML insère les contrôles, et la complétion de code connaît les types WinUI.
 
